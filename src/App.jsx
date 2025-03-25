@@ -63,6 +63,7 @@ const TimerComponent = () => {
   };
   return (
     <>
+      <h2>Timer</h2>
       <button onClick={handleStartClick}>Start</button>{' '}
       <button onClick={handleStopClick}>Stop</button>{' '}
       <button onClick={handleResetClick}>Reset</button>
@@ -74,7 +75,8 @@ const TimerComponent = () => {
 function App() {
   return (
     <>
-      {/* <SearchDirectoryComponent /> */}
+      <SearchDirectoryComponent />
+      <hr />
       <TimerComponent />
     </>
   );
